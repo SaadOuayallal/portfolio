@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently working on AI Powered Projects",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,11 +72,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Alif Story Project",
+    des: "The first storyteller Box intended for young Muslims",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://www.google.com",
+    iconLists: ["angular.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+    link: "https://alifstory.com/home",
+  },
+  {
+    id: 2,
+    title: "Low Emission Vehicles",
+    des: "Tool used by Stellantis to show their Electric vehicles and charging stations",
+    img: "/p3.svg",
+    iconLists: ["angular.svg", "/tail.svg", "/ts.svg"],
+    link: "https://www-rec.lev.awsmpsa.com/free2move",
   },
 ];
 
